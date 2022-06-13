@@ -1,4 +1,4 @@
-package main.java.fr.verymc.commons.enums;
+package enums;
 
 public enum ServerType {
 
