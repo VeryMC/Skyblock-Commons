@@ -1,4 +1,4 @@
-package utils;
+package main.java.fr.verymc.commons.utils;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;
