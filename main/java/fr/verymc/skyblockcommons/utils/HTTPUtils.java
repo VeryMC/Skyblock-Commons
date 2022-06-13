@@ -1,4 +1,4 @@
-package main.java.fr.verymc.utils.main.java.fr.verymc.utils;
+package main.java.fr.verymc.utils.main.java.fr.verymc.skyblockcommons.utils;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpPost;

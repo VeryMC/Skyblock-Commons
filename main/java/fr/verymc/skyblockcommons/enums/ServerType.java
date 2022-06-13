@@ -1,4 +1,4 @@
-package main.java.fr.verymc.utils.main.java.fr.verymc.enums;
+package main.java.fr.verymc.utils.main.java.fr.verymc.skyblockcommons.enums;
 
 public enum ServerType {
 
