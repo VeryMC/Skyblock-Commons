@@ -14,10 +14,10 @@ import java.util.ArrayList;
 
 public class HTTPUtils {
 
-    public static String baseUrl = "http://127.0.0.1:8080";
+    public static String baseUrl = "http://127.0.0.1:8080/server/";
 
     public static ArrayList readFromUrl(String url) {
-        try (java.io.InputStream is = new java.net.URL(url).openStream()) {
+        try (java.io.InputStream is = new java.net.URL(baseUrl+url).openStream()) {
             String contents = new String(is.readAllBytes());
             ArrayList<String> toReturn = new ArrayList();
             while (contents.contains("{")) {
@@ -25,7 +25,6 @@ public class HTTPUtils {
                 String temp = contents.substring(0, toGo + 1);
                 toReturn.add(temp);
                 contents = contents.replace(temp, "");
-                System.out.println(temp);
             }
             return toReturn;
         } catch (MalformedURLException e) {
