@@ -3,7 +3,7 @@ package main.java.fr.verymc.commons.enums;
 public enum ServerType {
 
     HUB("skyblock_hub"),
-    ISLAND("skyblock_îles"),
+    ISLAND("skyblock_iles"),
     DUNGEON("skyblock_dungeon");
 
     private String displayName;
