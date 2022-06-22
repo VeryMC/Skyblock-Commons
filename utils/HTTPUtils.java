@@ -58,7 +58,7 @@ public class HTTPUtils {
 
         //Create the StringBuffer object and store the response into it.
         StringBuffer result = new StringBuffer();
-        String line = "";
+        String line;
         while ((line = br.readLine()) != null) {
             System.out.println("Response : \n" + result.append(line));
         }
