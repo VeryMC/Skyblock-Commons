@@ -4,7 +4,7 @@ public enum ServerType {
 
     SKYBLOCK_HUB("skyblock_hub"),
     SKYBLOCK_ISLAND("skyblock_iles"),
-    SKYBLOCk_DUNGEON("skyblock_dungeon"),
+    SKYBLOCK_DUNGEON("skyblock_dungeon"),
     HUB("hub"),
     COMBOFFA("comboffa"),
     LIMBO("limbo");
